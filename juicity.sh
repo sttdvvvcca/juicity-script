@@ -57,7 +57,7 @@ archAffix(){
 }
 
 realip(){
-    ip=$(curl -s4m8 ip.p3terx.com -k | sed -n 1p) || ip=$(curl -s6m8 ip.p3terx.com -k | sed -n 1p)
+    ip=$(curl -s6m8 ip.p3terx.com -k | sed -n 1p) || ip=$(curl -s4m8 ip.p3terx.com -k | sed -n 1p)
 }
 
 instjuicity(){
